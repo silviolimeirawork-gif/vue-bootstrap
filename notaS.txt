@@ -1,0 +1,5 @@
+npm create @vite-pwa/pwa@latest
+# or
+yarn create @vite-pwa/pwa 
+# or
+pnpm create @vite-pwa/pwa
