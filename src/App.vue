@@ -1,4 +1,5 @@
 <script setup>
+import HelloToast from './components/HelloToast.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import PWABadge from './components/PWABadge.vue'
 </script>
@@ -12,7 +13,10 @@ import PWABadge from './components/PWABadge.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="vite-project" />
+  <!-- <HelloWorld msg="vite-project" /> -->
+  <HelloToast></HelloToast>
+
+
   <PWABadge />
 </template>
 

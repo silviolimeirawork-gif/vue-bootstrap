@@ -190,7 +190,9 @@ onBeforeUnmount(() => {
     <!-- Exemplo 5: Popover em elemento customizado -->
     <div class="card mt-4" style="width: 18rem;">
       <div class="card-body">
-        <h5 class="card-title" ref="titlePopover">Card Title</h5>
+        <h5 class="card-title" 
+          ref="titlePopover">
+          Card Title</h5>
         <p class="card-text">Passe o mouse sobre o título para ver o popover.</p>
       </div>
     </div>    
