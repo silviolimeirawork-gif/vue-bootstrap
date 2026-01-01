@@ -3,3 +3,10 @@ npm create @vite-pwa/pwa@latest
 yarn create @vite-pwa/pwa 
 # or
 pnpm create @vite-pwa/pwa
+
+
+git remote add origin https://github.com/silviolimeirawork-gif/vue-bootstrap.git
+git branch -M main
+git push -u origin main
+
+

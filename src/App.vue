@@ -2,10 +2,12 @@
 import HelloToast from './components/HelloToast.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import PWABadge from './components/PWABadge.vue'
-import Tooltips from './components/HelloTooltips.vue';
 import HelloTooltips from './components/HelloTooltips.vue';
 import HelloSpinners from './components/HelloSpinners.vue';
 import ToggleRightOffCanvas from './components/ToggleRightOffCanvas.vue';
+import ModalTooltipsPopovers from './components/ModalTooltipsPopovers.vue';
+import ReusableModal from './components/ReusableModal.vue';
+import FormModalUse from './components/FormModalUse.vue';
 </script>
 
 <template>
@@ -18,7 +20,8 @@ import ToggleRightOffCanvas from './components/ToggleRightOffCanvas.vue';
     </a>
   </div>
   <!-- <HelloWorld msg="vite-project" /> -->
-  <ToggleRightOffCanvas />
+  <FormModalUse />
+  
 
   <PWABadge />
 </template>
