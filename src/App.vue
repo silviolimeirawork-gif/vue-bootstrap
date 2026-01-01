@@ -5,6 +5,7 @@ import PWABadge from './components/PWABadge.vue'
 import Tooltips from './components/HelloTooltips.vue';
 import HelloTooltips from './components/HelloTooltips.vue';
 import HelloSpinners from './components/HelloSpinners.vue';
+import ToggleRightOffCanvas from './components/ToggleRightOffCanvas.vue';
 </script>
 
 <template>
@@ -17,7 +18,7 @@ import HelloSpinners from './components/HelloSpinners.vue';
     </a>
   </div>
   <!-- <HelloWorld msg="vite-project" /> -->
-  <HelloSpinners />
+  <ToggleRightOffCanvas />
 
   <PWABadge />
 </template>
