@@ -2,6 +2,8 @@
 import HelloToast from './components/HelloToast.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import PWABadge from './components/PWABadge.vue'
+import Tooltips from './components/HelloTooltips.vue';
+import HelloTooltips from './components/HelloTooltips.vue';
 </script>
 
 <template>
@@ -14,8 +16,7 @@ import PWABadge from './components/PWABadge.vue'
     </a>
   </div>
   <!-- <HelloWorld msg="vite-project" /> -->
-  <HelloToast></HelloToast>
-
+  <HelloTooltips></HelloTooltips>
 
   <PWABadge />
 </template>
