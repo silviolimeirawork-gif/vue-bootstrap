@@ -4,6 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import PWABadge from './components/PWABadge.vue'
 import Tooltips from './components/HelloTooltips.vue';
 import HelloTooltips from './components/HelloTooltips.vue';
+import HelloSpinners from './components/HelloSpinners.vue';
 </script>
 
 <template>
@@ -16,7 +17,7 @@ import HelloTooltips from './components/HelloTooltips.vue';
     </a>
   </div>
   <!-- <HelloWorld msg="vite-project" /> -->
-  <HelloTooltips></HelloTooltips>
+  <HelloSpinners />
 
   <PWABadge />
 </template>
