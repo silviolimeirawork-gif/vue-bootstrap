@@ -8,6 +8,7 @@ import ToggleRightOffCanvas from './components/ToggleRightOffCanvas.vue';
 import ModalTooltipsPopovers from './components/ModalTooltipsPopovers.vue';
 import ReusableModal from './components/ReusableModal.vue';
 import FormModalUse from './components/FormModalUse.vue';
+import Opacidade from './components/Opacidade.vue';
 </script>
 
 <template>
@@ -20,7 +21,7 @@ import FormModalUse from './components/FormModalUse.vue';
     </a>
   </div>
   <!-- <HelloWorld msg="vite-project" /> -->
-  <FormModalUse />
+  <Opacidade />
   
 
   <PWABadge />
